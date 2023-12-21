@@ -1,0 +1,156 @@
+/* Reset some default styles for better consistency across browsers */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 150px; /* Increase margin between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    margin-right: 0 500px 0 0; /* Adjust the values based on your design */
+    padding-bottom: calc(50px + 5vh); /* Adjust the value based on your footer height and styling */
+    overflow-x: auto; /* Add horizontal scrollbar if needed */
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: -80px;
+    padding-top: 100px;
+}
+
+h2 {
+    /* font-size: 1em; */
+    margin-bottom: 20px;
+    padding-top: 40px;
+    /* text-align: justify; */
+}
+
+h3 {
+    /* font-size: 1em; */
+    margin-bottom: 20px;
+    padding-top: 40px;
+    /* text-align: justify; */
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.email-address {
+    font-size: 1.1em; /* Adjust the font size as needed */
+    font-family:'Courier New', Courier, monospace; /* Specify the desired font-family */
+    font-weight: normal; /* Non-bold */
+    /* margin-top: 10px; Adjust the margin for spacing */
+    text-align: center;
+}
+
+/* Change link color within the paragraph */
+main a {
+    color: #c03e0f; /* Change to your desired link color */
+}
+
+/* Add these styles to your existing CSS */
+.left-align {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.publication-list{    
+    text-align: left;
+    margin-top: 50px;
+}
+
+/* Additional styling for the bottom links with logos */
+.additional-links {
+    margin-top: 10px; /* Add space between the paragraph and bottom links */
+    display: flex;
+    justify-content: center;
+}
+
+.additional-links a {
+    margin: 0 100px; /* Adjust margin between logo links */
+}
+
+.additional-links img {
+    width: 40px; /* Set the width of the logo images */
+    height: 40px; /* Set the height of the logo images */
+}
+
+/* Add these styles to your existing CSS */
+.experience-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.experience-column {
+    width: 45%;
+}
+
+/* Add new styles for course and year columns */
+.experience-column strong {
+    display: block; /* Display each strong element on a new line */
+    margin-bottom: 10px; /* Add some spacing between each strong element */
+}
+
+/* Add these styles to your existing CSS */
+
+/* Add this style to your existing CSS */
+.publication-link {
+    color: #ed0a0ab6; /* Change to your desired link color */
+}
+
+
+.publication-details {
+    margin-top: 10px; /* Add some space between title and details */
+}
+
+.publications{
+    margin-bottom: 20px;
+}
+
+
+/* Add styling for the footer if needed */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background-color: darkgray;
+    padding: 5px;
+    text-align: center;
+}
