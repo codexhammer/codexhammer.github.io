@@ -137,7 +137,9 @@ main a {
 
 .publication-details {
     margin-top: 10px; /* Add some space between title and details */
-    margin-right: 30px;
+    margin-right: 150px;
+    font-size: 0.9em
+
 }
 
 .publications{
